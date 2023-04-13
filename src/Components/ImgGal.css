@@ -1,0 +1,137 @@
+.imgGal {
+  background-color: #fffbef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.galTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.galleryWrap {
+  background-color: #fffbef;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+p.a {
+  font-size: 30px;
+  font-weight: 530;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+hr {
+  display: flex;
+  height: 1px;
+  width: 75vmax;
+  border: 0;
+  border-top: 1px solid rgb(38, 38, 38);
+  padding: 3em;
+}
+
+.galleryWrap .single {
+  width: 30%;
+  cursor: pointer;
+  padding: 0 15px 15px 0;
+}
+
+.galleryWrap .single img {
+  max-width: 100%;
+}
+
+.galleryWrap .single img:hover {
+  transform: scale(1.02);
+}
+
+.sliderWrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #fffbef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sliderWrap .btnClose,
+.sliderWrap .btnPrev,
+.sliderWrap .btnNext {
+  position: fixed;
+  cursor: pointer;
+  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.227);
+  z-index: 9999;
+}
+
+.btnNext:hover,
+.btnPrev:hover,
+.btnClose:hover {
+  opacity: 1;
+}
+
+.sliderWrap .btnClose {
+  top: 40px;
+  right: 40px;
+}
+
+.sliderWrap .btnPrev {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100px;
+}
+
+.sliderWrap .btnNext {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100px;
+}
+
+.fullScreenImage {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullScreenImage img {
+  max-width: 100%;
+  max-height: 100%;
+  pointer-events: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+@media only screen and (max-width: 1200px) {
+  .galleryWrap .single {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .galleryWrap .single {
+    width: 80%;
+  }
+
+  hr {
+    width: 75vmin;
+  }
+}

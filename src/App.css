@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
+}
+
+@import url("https://fonts.googleapis.com/css?family=BIZ+UDPMincho:regular,bold,italic&subset=latin,latin-ext");
+
+.home,
+.experiences,
+.our-concept,
+.book,
+.about-area,
+.accomodations,
+.artist-resi,
+.gallery {
+  display: flex;
+  /* height: 90vh; */
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.experiences {
+  background-image: url("/public/Img/DSC04352.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fffbef;
+  font-size: 100px;
+}
+
+.our-concept {
+  background-image: url("/public/Img/DSC01574.jpeg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fdf6e3;
+  font-size: 100px;
+}
+
+.book {
+  background-image: url("/public/Img/DSC04326.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fdf6e3;
+  font-size: 100px;
+}
+
+.about-area {
+  background-image: url("/public/Img/DSC04326.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fdf6e3;
+  font-size: 100px;
+}
+
+.accomodations {
+  background-image: url("/public/Img/DSC04326.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fdf6e3;
+  font-size: 100px;
+}
+
+.artist-resi {
+  background-image: url("/public/Img/DSC04326.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fdf6e3;
+  font-size: 100px;
+}
+
+.gallery {
+  /* background-image: url("/public/Img/DSC04326.jpeg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fdf6e3;
+  font-size: 100px;
+}

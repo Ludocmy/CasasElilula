@@ -1,0 +1,37 @@
+p.a {
+  font-size: 30px;
+  font-weight: 530;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+p.b {
+  font-size: 13px;
+  padding-bottom: 50px;
+}
+
+.casas-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fffbef;
+}
+
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 80vmin;
+}
+
+hr {
+  display: flex;
+  height: 1px;
+  width: 135vmin;
+  border: 0;
+  border-top: 1px solid rgb(38, 38, 38);
+  margin: 1em 0;
+  padding: 0;
+}
