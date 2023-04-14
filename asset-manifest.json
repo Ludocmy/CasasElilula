@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CasasElilula/static/css/main.2d021b1f.css",
+    "main.js": "/CasasElilula/static/js/main.6d570b95.js",
+    "static/media/DSC01574.jpeg": "/CasasElilula/static/media/DSC01574.69dd6756f0212ceba076.jpeg",
+    "static/media/DSC04326.jpeg": "/CasasElilula/static/media/DSC04326.22796eb208be84faace4.jpeg",
+    "static/media/DSC04352.jpeg": "/CasasElilula/static/media/DSC04352.cb41cc53268bbe09044b.jpeg",
+    "index.html": "/CasasElilula/index.html",
+    "main.2d021b1f.css.map": "/CasasElilula/static/css/main.2d021b1f.css.map",
+    "main.6d570b95.js.map": "/CasasElilula/static/js/main.6d570b95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d021b1f.css",
+    "static/js/main.6d570b95.js"
+  ]
+}
