@@ -16,7 +16,7 @@ function Cards() {
               path="/services"
             />
             <CardItem
-              src="Img/DSC04352.jpeg"
+              src="/public/Img/DSC04352.jpeg"
               text="Experience kitesurfing in ideal conditions!"
               label="Kitesurfing"
               path="/services"
