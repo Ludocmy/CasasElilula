@@ -12,10 +12,10 @@ function Gallery() {
       img: "https://github.com/Ludocmy/CasasElilula/blob/main/public/Img/DSC08278.JPG",
     },
     {
-      img: "../Img/DSC08235.jpeg",
+      img: "DSC08235.jpeg",
     },
     {
-      img: "Img/DSC08278.JPG",
+      img: "DSC08278.JPG",
     },
     {
       img: "public/Img/DSC08280.jpeg",
