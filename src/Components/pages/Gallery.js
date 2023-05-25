@@ -9,7 +9,7 @@ function Gallery() {
       img: "https://github.com/Ludocmy/CasasElilula/blob/main/public/Img/DSC04326.jpeg",
     },
     {
-      img: "https://github.com/Ludocmy/CasasElilula/blob/bd81856c6816837593adb3a613c3fe37f5d15532/public/Img/DSC01453.jpeg",
+      img: "https://github.com/Ludocmy/CasasElilula/blob/main/public/Img/DSC08278.JPG",
     },
     {
       img: "../../../public/Img/DSC08235.jpeg",
