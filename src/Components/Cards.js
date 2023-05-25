@@ -10,13 +10,13 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="public/Img/DSC04731.jpeg"
+              src={require("../Img/DSC04731.jpeg")}
               text="Explore the Greek Isands"
               label="Adventure"
               path="/services"
             />
             <CardItem
-              src="public/Img/DSC04352.jpeg"
+              src={require("../Img/DSC04352.jpeg")}
               text="Experience kitesurfing in ideal conditions!"
               label="Kitesurfing"
               path="/services"
@@ -24,13 +24,13 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="https://github.com/Ludocmy/CasasElilula/blob/main/public/Img/DSC01453.jpeg"
+              src={require("../Img/DSC01453.jpeg")}
               text="Amazing opportunities for phtography!"
               label="Photography"
               path="/products"
             />
             <CardItem
-              src="public/Img/DSC04107.jpeg"
+              src={require("../Img/DSC04107.jpeg")}
               text="Experience the cities culture"
               label="Culture"
               path="/sign-up"

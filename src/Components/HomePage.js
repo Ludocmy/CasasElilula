@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video
-        src="../../public/Videos/testVid.mp4"
+        src={require("../Videos/testVid.mp4")}
         muted
         autoPlay={"autoplay"}
         loop

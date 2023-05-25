@@ -23,12 +23,12 @@ function CasasView() {
           <div className="cards__wrapper">
             <ul className="cards__items">
               <CardItem
-                src="Img/DSC04731.jpeg"
+                src={require("../Img/DSC04731.jpeg")}
                 text="Casa Eli"
                 path="/services"
               />
               <CardItem
-                src="Img/DSC04352.jpeg"
+                src={require("../Img/DSC04352.jpeg")}
                 text="Casa Lu"
                 label="Kitesurfing"
                 path="/services"
@@ -36,13 +36,13 @@ function CasasView() {
             </ul>
             <ul className="cards__items">
               <CardItem
-                src="Img/DSC01574.jpeg"
+                src={require("../Img/DSC01574.jpeg")}
                 text="Casa La"
                 label="Photography"
                 path="/products"
               />
               <CardItem
-                src="Img/DSC04107.jpeg"
+                src={require("../Img/DSC04107.jpeg")}
                 text="Casa Elilula"
                 label="Culture"
                 path="/sign-up"
