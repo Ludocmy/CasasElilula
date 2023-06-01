@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import mainLogo from "../Logo/Logo_Full.png";
-import nav_btnOp from "../Logo/Menu_btn1Up.png ";
-import nav_btnCl from "../../Logo/Menu_btn1.png ";
+import mainLogo from "../Logo/Logo_NameOnly.png";
 
 function NavBar() {
   // Set waht happens to the click
@@ -35,7 +33,13 @@ function NavBar() {
         <div className="navbar-container">
           {/* This toggles the Hamburger menu icon from one position to the other (Cliick is defined above) */}
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? nav_btnCl : nav_btnOp} />
+            <img
+              src={
+                click
+                  ? require("../Logo/Menu_btn1Up.png")
+                  : require("../Logo/Menu_btn1.png")
+              }
+            />
           </div>
           {/* make nav menu dissapear on-click */}
 
