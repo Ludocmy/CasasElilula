@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import mainLogo from "../Logo/Untitled-1.png";
+import mainLogo from "../Logo/Logo_2.png";
 
 function NavBar() {
   // Set waht happens to the click

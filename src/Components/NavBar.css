@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   flex-grow: 2.5;
-  order: 1;
+  order: 2;
 }
 
 .fa-typo3 {
@@ -127,14 +127,16 @@
   flex-grow: 15;
   justify-content: center;
   order: 1;
+  width: auto;
+  height: 100px;
 }
 
-.nav-btn {
+/* .nav-btn {
   display: flex;
   justify-content: center;
   order: 3;
   flex-grow: 1.2;
-}
+} */
 
 .btns {
   font-size: 5px;
