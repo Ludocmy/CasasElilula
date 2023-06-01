@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Footer.css";
+import mainLogo from "../Logo/Logo_NameOnly.png";
 
 function Footer() {
   return (
@@ -68,11 +69,9 @@ function Footer() {
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
-          <div className="footer-logo">
-            <Link to="/" className="social-logo">
-              Elilula
-            </Link>
-          </div>
+          <Link className="footer-logo" to="/">
+            <img src={mainLogo} alt="Casas Elilula logo" />
+          </Link>
           <small className="website-rights">Elilula © 2020</small>
           <div className="social-icons">
             <Link
