@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+import mainLogo from "../Logo/Untitled-1.png";
 
 function NavBar() {
   // Set waht happens to the click
@@ -99,11 +100,10 @@ function NavBar() {
           </ul>
 
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            {/* Logo and Title design */}
-            Elilula
+            <img src={mainLogo} />
           </Link>
 
-          <div className="nav-btn">
+          {/* <div className="nav-btn">
             <Button
               className="btns"
               buttonStyle="btn--outline"
@@ -111,7 +111,7 @@ function NavBar() {
             >
               Bookings
             </Button>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>

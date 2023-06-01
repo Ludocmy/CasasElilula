@@ -6,49 +6,49 @@ import ImgGallery from "../ImgGallery";
 function Gallery() {
   const galleryImages = [
     {
-      img: "https://github.com/Ludocmy/CasasElilula/blob/main/public/Img/DSC04326.jpeg",
+      img: "../Img/DSC04326.jpeg",
     },
     {
-      img: "https://github.com/Ludocmy/CasasElilula/blob/main/public/Img/DSC08278.JPG",
+      img: "../Img/DSC08278.JPG",
     },
     {
-      img: "DSC08235.jpeg",
+      img: "../Img/DSC08235.jpeg",
     },
     {
-      img: "DSC08278.JPG",
+      img: "../Img/DSC08278.JPG",
     },
     {
-      img: "public/Img/DSC08280.jpeg",
+      img: "../Img/DSC08280.jpeg",
     },
     {
-      img: "public/Img/DSC08321.jpeg",
+      img: "../Img/DSC08321.jpeg",
     },
     {
-      img: "Img/DSC09083.jpeg",
+      img: "../Img/DSC09083.jpeg",
     },
     {
-      img: "public/Img/DSC09067.jpeg",
+      img: "../Img/DSC09067.jpeg",
     },
     {
-      img: "public/Img/DSC09066.jpeg",
+      img: "../Img/DSC09066.jpeg",
     },
     {
-      img: "Img/DSC09065.jpeg",
+      img: "../Img/DSC09065.jpeg",
     },
     {
-      img: "Img/DSC09059.jpeg",
+      img: "../Img/DSC09059.jpeg",
     },
     {
-      img: "Img/DSC09037.jpeg",
+      img: "../Img/DSC09037.jpeg",
     },
     {
-      img: "Img/DSC08620.jpeg",
+      img: "../Img/DSC08620.jpeg",
     },
     {
-      img: "Img/DSC08619.jpeg",
+      img: "../Img/DSC08619.jpeg",
     },
     {
-      img: "Img/DSC01453.jpeg",
+      img: "../Img/DSC01453.jpeg",
     },
     {
       img: "Img/DSC01574.jpeg",
