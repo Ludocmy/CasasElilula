@@ -3,6 +3,7 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import mainLogo from "../Logo/Logo_NameOnly.png";
+import iconLogo from "../Logo/Menu_btn1Single.png";
 
 function NavBar() {
   // Set waht happens to the click
@@ -43,67 +44,73 @@ function NavBar() {
           </div>
           {/* make nav menu dissapear on-click */}
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/our-concept"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Our Concept
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/accomodations"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Accomodations
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/experiences"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Experiences
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/about-area"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                About the area
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/gallery"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Gallery
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/book"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Bookings
-              </Link>
-            </li>
-          </ul>
+          <div class="navbar-slider">
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+              <li className="nav-item">
+                <a
+                  href="./pages/Home.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="./pages/OurConcept.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Our Concept
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="./pages/Accomodations.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Accomodations
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="./pages/Experiences.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Experiences
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="./pages/AboutArea.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  About the area
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="./pages/Gallery.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Gallery
+                </a>
+              </li>
+              <li>
+                <a
+                  href="./pages/Book.js"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Bookings
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img src={mainLogo} />

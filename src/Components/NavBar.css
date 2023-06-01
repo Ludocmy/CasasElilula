@@ -34,6 +34,14 @@
   padding-top: 10px;
 }
 
+.navlink-icon {
+  width: 10px;
+  height: auto;
+  display: flex;
+  justify-self: end;
+  padding: 1px 2px;
+}
+
 .menu-icon {
   display: flex;
   justify-content: center;
@@ -61,7 +69,7 @@
   position: absolute;
   top: 80px;
   opacity: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   list-style-type: none;
   pointer-events: none;
   padding-top: 50px;
@@ -76,6 +84,18 @@
   height: fit-content;
   padding-left: 20vmin;
   pointer-events: all;
+}
+
+/* .navbar-slider {
+  overflow-y: hidden;
+  max-height: 10rem; approximate max height
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+} */
+
+.navbar-slider.closed {
+  max-height: 0;
 }
 
 .nav-item {
@@ -110,7 +130,7 @@
   color: rgb(0, 0, 0);
   padding: 14px 200px;
   border: 1px solid rgb(0, 0, 0);
-  transition: all 0.3s ease-out;
+  /* transition: all 0.3s ease-out; */
 }
 
 .nav-links-mobile:hover {
