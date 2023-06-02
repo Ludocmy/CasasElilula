@@ -47,66 +47,65 @@ function NavBar() {
           <div class="navbar-slider">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <a
-                  href="./pages/Home.js"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
+                <a href="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="./pages/OurConcept.js"
+                  href="/our-concept"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Our Concept
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="./pages/Accomodations.js"
+                  href="/accomodations"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Accomodations
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="./pages/Experiences.js"
+                  href="/experiences"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Experiences
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="./pages/AboutArea.js"
+                  href="/about-area"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   About the area
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="./pages/Gallery.js"
+                  href="/gallery"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Gallery
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
               <li>
-                <a
-                  href="./pages/Book.js"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
+                <a href="/book" className="nav-links" onClick={closeMobileMenu}>
                   Bookings
+                  <img className="navlink-icon" src={iconLogo} />
                 </a>
               </li>
             </ul>

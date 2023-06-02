@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
 
-export default function OurConcept() {
+function OurConcept() {
   return (
     <div>
       <h1 className="our-concept">Our Concept</h1>
@@ -10,3 +10,5 @@ export default function OurConcept() {
     </div>
   );
 }
+
+export default OurConcept;
